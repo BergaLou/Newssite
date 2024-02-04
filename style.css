@@ -1,0 +1,226 @@
+html{
+    height: 100%;
+    background-position: 100px 5px; 
+    background-color: #23231F;
+    
+    }
+
+    
+body {
+
+    font-family: 'Tahoma', sans-serif;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(55, 55, 51, 0.9), rgba(55, 55, 51, 0.9)), url('https://images.pexels.com/photos/7419392/pexels-photo-7419392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center/cover;
+    background-repeat: no-repeat;
+    background-position: 0% 95%;
+    background-size: contain;
+    border: 2px solid #23231F;
+    display: flex;
+    flex-direction: column;
+    align-items: 40% 75%;
+    min-height: 100%;
+    background-attachment: cover ;
+    
+}
+
+.wrapper {
+    width: 100%;
+    position: absolute;
+    
+}
+
+.logo {
+    font-size: 4rem;
+    position: relative;
+    width: 100%;
+    height: 900px;
+    border: none;
+    background: url('https://images.pexels.com/photos/1488402/pexels-photo-1488402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Tahoma', sans-serif;
+    text-align: 40% 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    position: absolute;
+    top: 50%;
+    left: 30%; 
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+nav {
+    background-color: #242522;
+    padding: 2px;
+    width: 100%
+    }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-direction: row right;
+}
+
+nav li {
+    margin-right: 90px;
+}
+
+a {
+    color: #969694;
+    text-decoration: none;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.menu-group {
+    margin-left: 250px !important;
+    margin-right: 100px;
+    text-align: left; 
+    margin-left: 20px;
+    height: fit-content;
+}
+
+.main-heading {
+    border: 2px solid transparent;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #584427;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 300px !important;
+    margin-right: 200px;
+    margin-bottom: 0; 
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    flex: 0 0 auto; 
+
+}
+
+.sub-text {
+    border: 2px solid transparent;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #969694;
+    font-size: 1.5rem; 
+    font-family: 'Lucida Sans Unicode', sans-serif; 
+    text-align: left;
+    margin-left: 300px !important;
+    margin-right: 200px;
+    margin-top: 0;
+    flex: 0 0 auto;
+    
+}
+
+.nature-image {
+    border: 2px solid transparent;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    left: 1000px;
+    bottom: 520px;
+    opacity: 0.7;
+    border: solid 5px;
+    border-color: #23211D;
+    background-color: #23211D;
+
+}
+
+.main-info {
+    border: 2px solid transparent;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #969694;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 300px !important;
+    margin-right: 200px;
+    margin-bottom: 0px; 
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    flex: 0 0 auto;
+    position: relative;
+    bottom: 450px; 
+}
+
+.main-about{
+    border: 2px solid transparent;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #969694;
+    font-size: 1.5rem; 
+    font-family: 'Lucida Sans Unicode', sans-serif; 
+    text-align: left;
+    margin-left: 300px !important;
+    margin-right: 200px;
+    margin-bottom: 1000px;
+    flex: 0 0 auto;
+    position: relative;
+    bottom: 470px;
+}
+
+a:hover {
+    color: #735221;
+}
+
+.search-bar {
+    display: flex;
+    align-items: right;
+    color: #969694;
+}
+
+input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+#footer-region{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    }
+
+.footer {
+    display: absolute;
+    bottom: 0;
+    border-top: 1px solid #23231F;
+    background-color: #23231F;
+    color: #969694;
+    text-align: center;
+    padding: 1rem;
+    position: sticky;
+    margin-top: -1150px;
+    width: 100%
+    
+
+ } 
+
+ 
+    
